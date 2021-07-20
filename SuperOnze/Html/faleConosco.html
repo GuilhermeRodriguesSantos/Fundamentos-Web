@@ -29,17 +29,20 @@
         </div>
     </div>
 
-    <div class="conterner-3 borda-2" >
-        <img class="imagem-4" src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\img\fubuki.gif"
+    <div class="conterner-3 borda-2">
+        <img class="imagem-4"
+            src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\img\fubuki.gif"
             alt="Git do Fubuki" height="150" width="250">
 
 
         <form class="borda-1 ">
             <label for="Name"> Nome: </label>
-            <br><input type="text" id="Nome"> <br> <br>
+            <br><input type="text" id="Nome" onkeyup='validaNome()'> <br> 
+            <div id="text"></div>
 
             <label for="Email"> Email:</label>
-            <br><input type="email" id="Email"> <br> <br>
+            <br><input type="email" id="Email" onkeyup='validaEmail()'> <br> 
+            <div id="text2"></div>
 
             <label for="Assunto"> Assunto: </label>
             <br><textarea name="Assunto" id="Assunto" cols="60" rows="7"></textarea> <br> <br>
@@ -47,23 +50,27 @@
             <button class="butao">ENVIAR</button>
 
         </form>
-</div>
-        <footer>
-            <div class="foter">
-                <br>
-                <p class="center-2">@Direitos Reservados a Guilherme</p>
-            
-                <div class="imagens-5">
-                
-                    <a href="https://www.linkedin.com/in/guilhermedev/"> <img class="foto-5"
-                            src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\img\icons8-linkedin-50.png"></a>
-                
-                    <a href="https://github.com/GuilhermeRodriguesSantos"><img class="foto-6"
-                            src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\img\icons8-github-50.png"></a>
-                
-                </div>
+    </div>
+    <footer>
+        <div class="foter">
+            <br>
+            <p class="center-2">@Direitos Reservados a Guilherme</p>
+
+            <div class="imagens-5">
+
+                <a href="https://www.linkedin.com/in/guilhermedev/"> <img class="foto-5"
+                        src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\img\icons8-linkedin-50.png"></a>
+
+                <a href="https://github.com/GuilhermeRodriguesSantos"><img class="foto-6"
+                        src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\img\icons8-github-50.png"></a>
+
             </div>
+        </div>
     </footer>
+
+    <script
+        src="C:\Users\ronal\OneDrive\Guilherme\OneDrive\Área de Trabalho\Fundamentos-Web\assets\js\Script.js"></script>
+
 </body>
 
 </html>
